@@ -137,7 +137,7 @@ GET /feeds?page=0&pageSize=5&isPublic=true
 
 ### Request Example
 
-POST /labels
+POST /feeds
 
 ```json
 {
@@ -150,7 +150,7 @@ POST /labels
 
 ### Response
 
-- 새롭게 생성된 레이블 정보
+- 새롭게 생성된 피드 정보
 
 | Level1    |
 | --------- |
