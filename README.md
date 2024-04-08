@@ -1,4 +1,4 @@
-# ParadigmShifty FeedApp
+# ParadigmShift FeedApp
 
 NodeJS, ExpressJS RESTful FeedApp API.
 
