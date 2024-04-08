@@ -32,7 +32,7 @@ PORT=8080 yarn start
 ## [Feed](#feed)
 
 - [List](#feed-list)
-- [Get](#feed-get)
+- [Create](#feed-create)
 
 
 # <span id="feed">Feed</span>
@@ -114,7 +114,7 @@ GET /feeds?page=0&pageSize=5&isPublic=true
 }
 ```
 
-## <span id="feeds-create">Create</span>
+## <span id="feed-create">Create</span>
 
 ### Summary
 
