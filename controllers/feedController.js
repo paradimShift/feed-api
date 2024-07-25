@@ -14,8 +14,8 @@ module.exports = {
     const startIndex = page * pageSize;
     const endIndex = startIndex + pageSize;
     const paginatedFeeds = feeds
-      .slice(startIndex, endIndex)
-      .filter((feed) => feed.isPublic === Boolean(isPublic));
+      .filter((feed) => feed.isPublic === Boolean(isPublic))
+      .slice(startIndex, endIndex);
 
     if (feeds) {
       return res.status(httpStatus.OK).send(createResponse(paginatedFeeds));
